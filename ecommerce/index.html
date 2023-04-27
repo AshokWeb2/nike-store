@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>nike store</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="">ashok</a>
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="">Home</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Account</a></li>
+            </ul>
+          </nav>
+          <i class="fa-solid fa-bars menu" onclick="menutoggle()"></i>
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>Give your workout<br />A new style</h1>
+            <p>
+              succses is not always about greatness.it about consitsenty
+              <br />hard work gains success greatness
+            </p>
+            <a href="" class="btn"> Explore Now &#8594;</a>
+          </div>
+          <div class="col-2">
+            <img src="img/e..jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ---------   feautured catagoris  -------------- -->
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="img/shopping.jpg" />
+          </div>
+          <div class="col-3">
+            <img src="img/e2.jpg" />
+          </div>
+          <div class="col-3">
+            <img src="img/e33.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- --------- feautured products----------- -->
+    <div class="small-container">
+      <h2 class="title">Feautured Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="img/uniform.jpeg" alt="" />
+          <h4>Red Printed T-shirt</h4>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="img/watch.jpg" alt="" />
+          <h4>black white Printed T-shirt</h4>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="img/grew.jpg" alt="" />
+          <h4>grew Printed T-shirt</h4>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="img/black.jpg" alt="" />
+          <h4>lack Printed T-shirt</h4>
+          <p>$50.00</p>
+        </div>
+      </div>
+
+      <h2 class="title">Latest Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="img/latest.jpg" alt="" />
+          <h4>Red Printed T-shirt</h4>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="img/latest1.jpg" alt="" />
+          <h4>black white Printed T-shirt</h4>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="img/latest2.jpg" alt="" />
+          <h4>grew Printed T-shirt</h4>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="img/latest3.jpg" alt="" />
+          <h4>lack Printed T-shirt</h4>
+          <p>$50.00</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------offer--------------- -->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img src="img/watch1.jpg" alt="" />
+          </div>
+          <div class="col-2">
+            <p>Exclusively Avalable on redstore</p>
+            <h1>Smart band 4</h1>
+            <small
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              sapiente aspernatur, nisi quasi quod voluptatibus! Ducimus
+              voluptatem officiis eaque delectus?, ipsum dolor sit amet
+              consectetur adipisicing elit. Voluptas, fuga.</small
+            >
+            <a href="" class="btn">buy now &#8594;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
